@@ -1,0 +1,27 @@
+name: Release
+
+on:
+  push:
+    tags: ['v*']
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v6
+      - uses: actions/setup-python@v6
+        with:
+          python-version: '3.12'
+      - run: python3 scripts/prepare.py
+      - name: Publish app
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          GH_REPO: ${{ github.repository }}
+          RELEASE_TAG: ${{ github.ref_name }}
+        run: >-
+          gh release create "$RELEASE_TAG" Scavenger-Hunt-Q.zip scripts/setup-tv.sh
+          --verify-tag --title "$RELEASE_TAG"
+          --notes "Import Scavenger-Hunt-Q.zip in Arduino App Lab. See the README for model downloads and one-time TV setup."

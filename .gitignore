@@ -1,0 +1,13 @@
+.env
+.env.*
+.DS_Store
+__pycache__/
+*.py[cod]
+.private/
+.venv/
+.pytest_cache/
+node_modules/
+/app/.cache/
+/app/python/models/
+/.cache/
+/Scavenger-Hunt-Q.zip

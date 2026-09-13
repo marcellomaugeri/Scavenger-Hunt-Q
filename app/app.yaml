@@ -1,0 +1,18 @@
+name: Scavenger Hunt Q
+description: Portable AI Scavenger Hunt for Arduino UNO Q.
+ports:
+  - 7000
+bricks:
+  - arduino:web_ui: {}
+  - arduino:llm:
+      model: llamacpp:Qwen3.5-0.8B-Q4_0
+      variables:
+        LLAMA_ARG_CTX_SIZE: "1024"
+        LLAMA_ARG_THREADS: "2"
+        LLAMA_ARG_REASONING: "off"
+        LLAMA_ARG_N_PARALLEL: "1"
+        LLAMA_ARG_CACHE_RAM: "128"
+        OMP_NUM_THREADS: "2"
+  - arduino:object_detection:
+      model: yolox-object-detection
+icon: 🔍

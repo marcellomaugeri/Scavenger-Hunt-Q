@@ -1,0 +1,146 @@
+[
+  {
+    "label": "cup",
+    "name": "Cup",
+    "enabled": true,
+    "riddle_facts": "small drinking vessel; open top; often a handle; holds tea or coffee"
+  },
+  {
+    "label": "bottle",
+    "name": "Bottle",
+    "enabled": true,
+    "riddle_facts": "container for liquid; narrow neck; screw cap; can carry water without spilling"
+  },
+  {
+    "label": "book",
+    "name": "Book",
+    "enabled": true,
+    "riddle_facts": "paper pages bound inside a cover; printed words; stories to read"
+  },
+  {
+    "label": "cell phone",
+    "name": "Phone",
+    "enabled": true,
+    "riddle_facts": "pocket-sized electronic device; touch screen; makes calls and sends messages"
+  },
+  {
+    "label": "keyboard",
+    "name": "Keyboard",
+    "enabled": true,
+    "riddle_facts": "rows of letter keys; typed letters appear on a computer screen"
+  },
+  {
+    "label": "mouse",
+    "name": "Mouse",
+    "enabled": true,
+    "riddle_facts": "small computer device moved by hand; buttons to click; moves a pointer on screen"
+  },
+  {
+    "label": "scissors",
+    "name": "Scissors",
+    "enabled": true,
+    "riddle_facts": "two crossing metal blades; two finger loops; opens and closes to cut paper"
+  },
+  {
+    "label": "remote",
+    "name": "Remote",
+    "enabled": true,
+    "riddle_facts": "handheld buttons; changes television channels and volume from the sofa"
+  },
+  {
+    "label": "apple",
+    "name": "Apple",
+    "enabled": true,
+    "riddle_facts": "round fruit; crisp flesh; red or green skin; small seeds in a central core"
+  },
+  {
+    "label": "banana",
+    "name": "Banana",
+    "enabled": true,
+    "riddle_facts": "curved fruit; yellow peel; soft sweet flesh; grows in bunches"
+  },
+  {
+    "label": "backpack",
+    "name": "Backpack",
+    "enabled": true,
+    "riddle_facts": "bag worn on the back; two shoulder straps; carries school supplies"
+  },
+  {
+    "label": "umbrella",
+    "name": "Umbrella",
+    "enabled": true,
+    "riddle_facts": "folding canopy on a handle; opens above the head; keeps rain off"
+  },
+  {
+    "label": "handbag",
+    "name": "Handbag",
+    "enabled": true,
+    "riddle_facts": "small bag carried by handles or a shoulder strap; holds keys and a wallet"
+  },
+  {
+    "label": "tie",
+    "name": "Tie",
+    "enabled": true,
+    "riddle_facts": "long narrow strip of fabric; knotted under a shirt collar; hangs down the chest"
+  },
+  {
+    "label": "sports ball",
+    "name": "Ball",
+    "enabled": true,
+    "riddle_facts": "round object for sports; can be thrown or kicked; rolls and bounces"
+  },
+  {
+    "label": "bowl",
+    "name": "Bowl",
+    "enabled": true,
+    "riddle_facts": "deep open dish; curved sides; holds cereal or soup on a table"
+  },
+  {
+    "label": "fork",
+    "name": "Fork",
+    "enabled": true,
+    "riddle_facts": "eating utensil; handle and several prongs; spears bites of food"
+  },
+  {
+    "label": "spoon",
+    "name": "Spoon",
+    "enabled": true,
+    "riddle_facts": "eating utensil; small rounded scoop on a handle; lifts soup or stirs tea"
+  },
+  {
+    "label": "orange",
+    "name": "Orange",
+    "enabled": true,
+    "riddle_facts": "round citrus fruit; thick peel; juicy segments inside; can be squeezed for juice"
+  },
+  {
+    "label": "carrot",
+    "name": "Carrot",
+    "enabled": true,
+    "riddle_facts": "long pointed root vegetable; usually orange; crunchy; grows underground"
+  },
+  {
+    "label": "laptop",
+    "name": "Laptop",
+    "enabled": true,
+    "riddle_facts": "portable computer; screen folds over built-in letter keys; has a battery"
+  },
+  {
+    "label": "clock",
+    "name": "Clock",
+    "enabled": true,
+    "riddle_facts": "device on a wall or table; shows hours and minutes with hands or digits"
+  },
+  {
+    "label": "teddy bear",
+    "name": "Teddy bear",
+    "enabled": true,
+    "riddle_facts": "soft stuffed animal toy; round ears and paws; made for cuddling"
+  },
+  {
+    "label": "toothbrush",
+    "name": "Toothbrush",
+    "enabled": true,
+    "riddle_facts": "small bristled head on a handle; used with toothpaste; cleans teeth"
+  }
+]

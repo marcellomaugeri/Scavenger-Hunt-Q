@@ -1,0 +1,5 @@
+{
+  "voice_enabled": true,
+  "voice_model_path": "/app/python/models/vosk-model-small-en-us-0.15",
+  "test_mode": false
+}
